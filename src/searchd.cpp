@@ -15190,7 +15190,7 @@ void HandleMysqlShowDatabases ( SqlRowBuffer_c & tOut, SqlStmt_t & tStmt)
 	tOut.HeadColumn ( "Databases" );
 	tOut.HeadEnd();
         
-        tOut.PutString ( "Моя пробная БД" );
+        tOut.PutString ( "Версия с возможностью replace в distributed индексе." );
         tOut.Commit();
         
 	tOut.Eof();
