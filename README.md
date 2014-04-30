@@ -1,6 +1,5 @@
 <h4>Поиск sphinxsearch с возможностью Replace на distributed индексе. </h4>
-Эта сборка предназначена для решения бага <a href="http://sphinxsearch.com/bugs/view.php?id=1701" >0001701: SphinxQL INSERT, REPLACE for distributed index</a> <br>
-<br>
+Эта сборка предназначена для решения бага <a href="http://sphinxsearch.com/bugs/view.php?id=1701" >0001701: SphinxQL INSERT, REPLACE for distributed index</a><br>
 Проблема была в том что когда мы имеем следующий индекс<br>
 <pre>
 index dloc{
@@ -15,7 +14,6 @@ index dloc{
 
 <h4>Для компиляции выполните в дирректории проекта</h4>
 <pre>cmake . && make</pre>
-<br>
 Правки внесены в файлы<br>
 <pre>
 /src/searchd.cpp
