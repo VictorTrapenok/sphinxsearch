@@ -1,4 +1,4 @@
-<h1>Поиск sphinxsearch с возможностью Replace на distributed индексе. </h1>
+<h4>Поиск sphinxsearch с возможностью Replace на distributed индексе. </h4>
 Эта сборка предназначена для решения бага <a href="http://sphinxsearch.com/bugs/view.php?id=1701" >0001701: SphinxQL INSERT, REPLACE for distributed index</a> <br>
 <br>
 Проблема была в том что когда мы имеем следующий индекс<br>
@@ -13,11 +13,11 @@ index dloc{
 Нельзя для него выполнить запрос insert или replace потому как мы получаем ошибку.<br>
 В данной сборке можно. Только есть замечание что insert отрабатывает также как и replace.<br>
 
-<br>
-Для компиляции выполните в дирректории проекта <br>
+<h4>Для компиляции выполните в дирректории проекта</h4>
 <pre>cmake . && make</pre>
 <br>
 Правки внесены в файлы<br>
-/src/searchd.cpp<br>
-/src/yysphinxql.h <br>
- 
+<pre>
+/src/searchd.cpp
+/src/yysphinxql.h
+</pre>
