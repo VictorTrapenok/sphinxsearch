@@ -19,3 +19,6 @@ index dloc{
 /src/searchd.cpp
 /src/yysphinxql.h
 </pre>
+
+<h4  style="color:#f77;" >Эти же правки но для sphinxsearch версии 2.2.6</h4>
+<a href="https://github.com/Levhav/sphinxsearch-2.2.6" >Эти же правки но для sphinxsearch версии 2.2.6</a>
