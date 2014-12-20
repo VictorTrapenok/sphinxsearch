@@ -21,4 +21,4 @@ index dloc{
 </pre>
 
 <h4  style="color:#f77;" >Эти же правки но для sphinxsearch версии 2.2.6</h4>
-<a href="https://github.com/Levhav/sphinxsearch-2.2.6" >Эти же правки но для sphinxsearch версии 2.2.6</a>
+Все теже правки но для <a href="https://github.com/Levhav/sphinxsearch-2.2.6" >sphinxsearch 2.2.6</a>
